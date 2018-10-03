@@ -1,0 +1,78 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+article {
+    background-color: #f7f9fa;
+    height:100%;
+    padding:25px;
+}
+.row>div {
+    /*border:1px solid red;*/
+}
+.row.witruimte{
+    margin-top:25px;
+}  
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+.hoofdtitel{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.bg-breda {
+    background-color: #0eb9ed;
+}
+.navbar-brand{
+    font-weight:bold;
+    
+}
+.navbar-light .navbar-brand {
+    color: rgba(255,255,255,1);
+}
+.jumbotron{
+    padding:0;
+    margin:0;
+}
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
